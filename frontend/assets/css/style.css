@@ -293,7 +293,7 @@ img {
 /*===================================================================================*/
 /*  Forms
 /*===================================================================================*/
-.form-control, .navbar-search .form-control, table.cart .coupon .input-text {
+.form-control, .navbar-search .form-control, table.cart .coupon .input-text .input-option{
   font-size: 1.071em;
   line-height: 2em;
   border-radius: 1.467em;
@@ -306,7 +306,7 @@ label {
   font-weight: bold;
   margin-bottom: 0.857em; }
 
-.input-text {
+.input-text .input-option{
   font-size: 1em;
   line-height: 1.286em;
   border: 1px solid #ddd;
@@ -325,7 +325,7 @@ label {
   border-radius: 1.286em;
   width: 100%; }
 
-textarea.input-text {
+textarea.input-text .input-option{
   min-height: 10em;
   padding: 1.858em; }
 
@@ -1318,7 +1318,7 @@ img.desaturate {
   width: 52%; }
   .navbar-search > .input-group {
     width: 100%; }
-  .navbar-search .form-control, .navbar-search table.cart .coupon .input-text, table.cart .coupon .navbar-search .input-text {
+  .navbar-search .form-control, .navbar-search table.cart .coupon .input-text .input-option, table.cart .coupon .navbar-search .input-text .input-option {
     background: #fff;
     line-height: 1.34em;
     padding: 1.01em 2.134em;
@@ -1565,7 +1565,7 @@ img.desaturate {
     .electro-advanced-pagination a.prev:focus, .electro-advanced-pagination a.prev:hover, .electro-advanced-pagination a.next:focus, .electro-advanced-pagination a.next:hover {
       text-decoration: none;
       color: #b0b0b0; }
-  .electro-advanced-pagination .form-control, .electro-advanced-pagination table.cart .coupon .input-text, table.cart .coupon .electro-advanced-pagination .input-text {
+  .electro-advanced-pagination .form-control, .electro-advanced-pagination table.cart .coupon .input-text .input-option, table.cart .coupon .electro-advanced-pagination .input-text .input-option{
     display: inline-block; }
 
 /*===================================================================================*/
@@ -2497,7 +2497,7 @@ table.cart {
       font-size: 0.824em; }
       table.cart .product-quantity .quantity.buttons_added .minus, table.cart .product-quantity .quantity.buttons_added .plus {
         bottom: 0.5em; }
-  table.cart .product-quantity .input-text {
+  table.cart .product-quantity .input-text .input-option{
     padding: 0.5em 1em;
     border-radius: 1em; }
   table.cart .actions {
@@ -2520,7 +2520,7 @@ table.cart {
         width: 41.6666666667%; } }
     table.cart .coupon label[for="coupon_code"] {
       display: none; }
-    table.cart .coupon .input-text {
+    table.cart .coupon .input-text .input-option{
       border: 1px solid #dddddd;
       border-right: 0;
       border-top-right-radius: 0;
