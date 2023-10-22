@@ -147,16 +147,7 @@
                                             Us</a></li>
 
                                     <li class="menu-item menu-item-has-children animate-dropdown dropdown"><a
-                                            title="Blog" href="blog.html" data-toggle="dropdown" class="dropdown-toggle"
-                                            aria-haspopup="true">Blog</a>
-                                        <ul role="menu" class=" dropdown-menu">
-                                            <li class="menu-item animate-dropdown"><a title="Blog v1"
-                                                    href="blog-v1.html">Blog v1</a></li>
-                                            <li class="menu-item animate-dropdown"><a title="Blog v2"
-                                                    href="blog-v2.html">Blog v2</a></li>
-                                            <li class="menu-item animate-dropdown"><a title="Blog v3"
-                                                    href="blog-v3.html">Blog v3</a></li>
-                                        </ul>
+                                            title="Shop" href="shop.html">Shop</a>
                                     </li>
                                     <li class="yamm-fw menu-item menu-item-has-children animate-dropdown dropdown">
                                         <a title="Pages" href="#" data-toggle="dropdown" class="dropdown-toggle"
