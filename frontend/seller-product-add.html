@@ -37,6 +37,44 @@
         rel='stylesheet' type='text/css'>
 
     <link rel="shortcut icon" href="assets/images/fav-icon.png">
+
+    <style>
+        .thumbnail {
+            width: 100px;
+            /* Set the width of the thumbnail */
+            height: 100px;
+            /* Set the height of the thumbnail */
+            padding: 10px;
+            /* Add 10px of padding around the thumbnail */
+        }
+
+        .custom-file-input {
+            display: none;
+        }
+
+        .custom-file-label {
+            background-color: #c3f327;
+            color: #000000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        select[name="category"] {
+            width: 100%;
+            /* Set the width of the select box */
+            padding: 10px;
+            /* Add padding around the select box */
+            font-size: 16px;
+            /* Set the font size */
+            border: 1px solid #f90101;
+            /* Add a border */
+            border-radius: 5px;
+            /* Add rounded corners */
+            background-color: #fff;
+            /* Set background color */
+        }
+    </style>
 </head>
 
 <body class="page home page-template-default">
@@ -141,194 +179,7 @@
                                     <li class="menu-item menu-item-has-children animate-dropdown dropdown"><a
                                             title="Shop" href="shop.html">Shop</a>
                                     </li>
-                                    <li class="yamm-fw menu-item menu-item-has-children animate-dropdown dropdown">
-                                        <a title="Pages" href="#" data-toggle="dropdown" class="dropdown-toggle"
-                                            aria-haspopup="true">Pages</a>
-                                        <ul role="menu" class=" dropdown-menu">
-                                            <li class="menu-item animate-dropdown">
-                                                <div class="yamm-content" style="display:inline-block; width: 100%;">
-                                                    <div class="row">
-                                                        <div class="wpb_column vc_column_container col-sm-4">
-                                                            <div class="vc_column-inner ">
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="vc_wp_custommenu wpb_content_element">
-                                                                        <div class="widget widget_nav_menu">
-                                                                            <div class="menu-pages-menu-1-container">
-                                                                                <ul id="menu-pages-menu-1" class="menu">
-                                                                                    <li class="nav-title menu-item"><a
-                                                                                            href="#">Home &#038; Static
-                                                                                            Pages</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="home.html">Home v1</a>
-                                                                                    </li>
-                                                                                    <li
-                                                                                        class="menu-item current-menu-item current_page_item">
-                                                                                        <a href="home-v2.html">Home
-                                                                                            v2</a>
-                                                                                    </li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="home-v3.html">Home
-                                                                                            v3</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="about.html">About</a>
-                                                                                    </li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="contact-v2.html">Contact
-                                                                                            v2</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="contact-v1.html">Contact
-                                                                                            v1</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="faq.html">FAQ</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="store-directory.html">Store
-                                                                                            Directory</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="terms-and-conditions.html">Terms
-                                                                                            and Conditions</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="404.html">404</a></li>
-                                                                                    <li class="nav-title menu-item"><a
-                                                                                            href="#">Product
-                                                                                            Categories</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="cat-3-col.html">3
-                                                                                            Column Sidebar</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="cat-4-col.html">4
-                                                                                            Column Sidebar</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="cat-4-fw.html">4
-                                                                                            Column Full width</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="product-category-6-column.html">6
-                                                                                            Columns Full width</a></li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="wpb_column vc_column_container col-sm-4">
-                                                            <div class="vc_column-inner ">
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="vc_wp_custommenu wpb_content_element">
-                                                                        <div class="widget widget_nav_menu">
-                                                                            <div class="menu-pages-menu-2-container">
-                                                                                <ul id="menu-pages-menu-2" class="menu">
-                                                                                    <li class="nav-title menu-item"><a
-                                                                                            href="#">Shop Pages</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="shop.html#grid">Shop
-                                                                                            Grid</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="shop.html#grid-extended">Shop
-                                                                                            Grid Extended</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="shop.html#list-view">Shop
-                                                                                            List View</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="shop.html#list-view-small">Shop
-                                                                                            List View Small</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="shop.html">Shop Left
-                                                                                            Sidebar</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="shop-fw.html">Shop
-                                                                                            Full width</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="shop-right-side-bar.html">Shop
-                                                                                            Right Sidebar</a></li>
-                                                                                    <li class="nav-title menu-item"><a
-                                                                                            href="#">Blog Pages</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="blog-v1.html">Blog
-                                                                                            v1</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="blog-v3.html">Blog
-                                                                                            v3</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="blog-v2.html">Blog
-                                                                                            v2</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="blog-fw.html">Blog
-                                                                                            Full Width</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="blog-single.html">Single
-                                                                                            Blog Post</a></li>
 
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="wpb_column vc_column_container col-sm-4">
-                                                            <div class="vc_column-inner ">
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="vc_wp_custommenu wpb_content_element">
-                                                                        <div class="widget widget_nav_menu">
-                                                                            <div class="menu-pages-menu-3-container">
-                                                                                <ul id="menu-pages-menu-3" class="menu">
-                                                                                    <li class="nav-title menu-item"><a
-                                                                                            href="single-product.html">Single
-                                                                                            Product Pages</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="single-product-extended.html">Single
-                                                                                            Product Extended</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="single-product.html">Single
-                                                                                            Product Fullwidth</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="single-product-sidebar.html">Single
-                                                                                            Product Sidebar</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="single-product-sidebar-accessories.html">Single
-                                                                                            Product Sidebar Accessories
-                                                                                        </a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="single-product-sidebar-specification.html">Single
-                                                                                            Product Sidebar
-                                                                                            Specification </a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="single-product-sidebar-reviews.html">Single
-                                                                                            Product Sidebar Reviews </a>
-                                                                                    </li>
-                                                                                    <li class="nav-title menu-item"><a
-                                                                                            href="#">Ecommerce Pages</a>
-                                                                                    </li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="shop.html">Shop</a>
-                                                                                    </li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="cart.html">Cart</a>
-                                                                                    </li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="checkout.html">Checkout</a>
-                                                                                    </li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="my-account.html">My
-                                                                                            Account</a></li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="compare.html">Compare</a>
-                                                                                    </li>
-                                                                                    <li class="menu-item"><a
-                                                                                            href="wishlist.html">Wishlist</a>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
                                     <li class="menu-item"><a title="Admin" href="seller-account.html">Admin</a></li>
                                     <li class="menu-item"><a title="Contact Us" href="#">Contact Us</a></li>
                                 </ul>
@@ -1558,6 +1409,57 @@
                                                             aria-required="true"></textarea>
                                                     </p>
 
+                                                    <p class="comment-form-comment">
+                                                        <label for="images">Product Images</label> <br>
+
+                                                    </p>
+
+                                                    <p class="comment-form-comment">
+                                                        <label for="images" class="custom-file-label">Choose
+                                                            Images</label>
+                                                        <input type="file" id="images" class="custom-file-input"
+                                                            name="images" accept="image/*" aria-required="true"
+                                                            multiple>
+                                                    </p>
+
+                                                    <div id="image-thumbnails"></div>
+
+                                                    <script>
+                                                        function displayImageThumbnails() {
+                                                            const input = document.getElementById('images');
+                                                            const thumbnailContainer = document.getElementById('image-thumbnails');
+                                                            thumbnailContainer.innerHTML = '';
+
+                                                            for (let i = 0; i < input.files.length; i++) {
+                                                                const file = input.files[i];
+                                                                if (file.type.startsWith('image/')) {
+                                                                    const thumbnail = document.createElement('img');
+                                                                    thumbnail.classList.add('thumbnail');
+                                                                    thumbnail.file = file;
+                                                                    thumbnailContainer.appendChild(thumbnail);
+
+                                                                    const reader = new FileReader();
+                                                                    reader.onload = (function (aThumbnail) {
+                                                                        return function (e) {
+
+                                                                            aThumbnail.src = e.target.result;
+                                                                            aThumbnail.style.width = '140px';
+                                                                            aThumbnail.style.height = '100px';
+
+
+                                                                        };
+                                                                    })(thumbnail);
+
+                                                                    reader.readAsDataURL(file);
+                                                                }
+                                                            }
+                                                        }
+
+                                                        document.getElementById('images').addEventListener('change', displayImageThumbnails);
+                                                    </script>
+
+
+                                                    <br><br>
                                                     <p class="form-row">
                                                         <input class="button" type="submit" value="Add Product"
                                                             name="login">
@@ -1976,214 +1878,6 @@
 
     </div><!-- #page -->
 
-    <!-- For demo purposes – can be removed on production -->
-    <!--    <!-- <div id="config" class="config">
-        <div id="config_wrapper">
-
-
-
-            <div id="config_container">
-                <div class="style-main-title">Style Selector</div>
-                <div class="box-title">Choose Home &#038; Static Pages</div>
-                <div class="input-box">
-                    <div class="input">
-                        <select id="home-pages" name="home_page">
-                            <option value="">Choose</option>
-                            <option value="home.html">Home v1</option>
-                            <option value="home-v2.html">Home v2</option>
-                            <option value="home-v3.html">Home v3</option>
-                            <option value="home-v3-full-color.html">Home v3 Full Color</option>
-                            <option value="about.html">About</option>
-                            <option value="cart.html">Cart</option>
-                            <option value="contact-v1.html">contact-v1</option>
-                            <option value="contact-v2.html">contact-v2</option>
-                            <option value="faq.html">FAQ</option>
-                            <option value="store-directory.html">Store Directory</option>
-                            <option value="terms-and-conditions.html">Terms and Conditions</option>
-                            <option value="404.html">404</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="box-title">Choose Ecommerce Page</div>
-                <div class="input-box">
-                    <div class="input">
-                        <select id="demo-pages" name="demo-shop">
-                            <option value="">Choose</option>
-                            <option value="shop.html">Shop</option>
-                            <option value="cart.html">Cart</option>
-                            <option value="checkout.html">Checkout</option>
-                            <option value="my-account.html">My Account</option>
-                            <option value="compare.html">Compare</option>
-                            <option value="wishlist.html">Wishlist</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="box-title">Choose Blog Style</div>
-                <div class="input-box">
-                    <div class="input">
-                        <select id="header-style" name="header">
-                            <option value="">Choose</option>
-                            <option value="blog-v1.html">Blog v1</option>
-                            <option value="blog-v2.html">Blog v2</option>
-                            <option value="blog-v3.html">Blog v3</option>
-                            <option value="blog-single.html">Blog Single Post</option>
-                            <option value="blog-fw.html">Blog Full Width</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="box-title">Choose Shop Pages</div>
-                <div class="input-box">
-                    <div class="input">
-                        <select id="shop-style" name="shop-style">
-                            <option value="">Choose</option>
-                            <option value="shop.html">Shop Grid</option>
-                            <option value="shop.html#grid-extended">Shop Extended</option>
-                            <option value="shop.html#list-view">Shop List View</option>
-                            <option value="shop.html#list-view-small">Shop List View Small</option>
-                            <option value="shop-fw.html">Shop Full Width</option>
-                            <option value="shop-right-side-bar.html">Shop Right Sidebar</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="box-title">Choose Single Product Pages</div>
-                <div class="input-box">
-                    <div class="input">
-                        <select id="single-products" name="single-product">
-                            <option value="">Choose</option>
-                            <option value="single-product.html">Single Product</option>
-                            <option value="single-product-extended.html">Single Product Extended</option>
-                            <option value="single-product-sidebar.html">Single Product Sidebar</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="box-title">Choose Product Category </div>
-                <div class="input-box">
-                    <div class="input">
-                        <select id="product-category-col" name="product-category">
-                            <option value="">Choose</option>
-                            <option value="cat-3-col.html">3 Column Sidebar</option>
-                            <option value="cat-4-col.html">4 Column Sidebar</option>
-                            <option value="cat-4-fw.html">4 Column Full width</option>
-                            <option value="product-category-6-column.html">6 Columns Full width</option>
-                            <option value="shop-fw.html">Shop Full Width</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="box-title">Colors</div>
-                <div id="colors" class="colors">
-                    <a class="changecolor green" href="#" title="Green color">Green</a>
-                    <a class="changecolor pink" href="#" title="Pink color">Pink</a>
-                    <a class="changecolor black" href="#" title="Black color">Black</a>
-                    <a class="changecolor gold" href="#" title="Gold color">Gold</a>
-                    <a class="changecolor yellow" href="#" title="Yellow color">Yellow</a>
-                    <a class="changecolor blue" href="#" title="Blue color">Blue</a>
-                    <a class="changecolor red" href="#" title="Red color">Red</a>
-                    <a class="changecolor orange" href="#" title="Orange color">Orange</a>
-                    <a class="changecolor flat-blue" href="#" title="Flat Blue color">Flat Blue</a>
-                </div>
-                <div class="box-title-text"><strong>Tons</strong> of customization you can do through Sass...</div>
-            </div>
-        </div>
-
-        <div class="style-toggle open"><i class="fa fa-wrench"></i></div>
-    </div> -->
-    -->
-    <!-- For demo purposes – can be removed on production : End -->
-
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/tether.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap-hover-dropdown.min.js"></script>
-    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="assets/js/echo.min.js"></script>
-    <script type="text/javascript" src="assets/js/wow.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
-    <script type="text/javascript" src="assets/js/electro.js"></script>
-
-    <!-- For demo purposes – can be removed on production -->
-
-    <script src="switchstylesheet/switchstylesheet.js"></script>
-
-    <script>
-        (function ($) {
-            $(document).ready(function () {
-                $(".changecolor").switchstylesheet({ seperator: "color" });
-                $('.show-theme-options').click(function () {
-                    $(this).parent().toggleClass('open');
-                    return false;
-                });
-
-                $('#home-pages').on('change', function () {
-                    $.ajax({
-                        url: $('#home-pages option:selected').val(),
-                        success: function (res) {
-                            location.href = $('#home-pages option:selected').val();
-                        }
-                    });
-                });
-
-                $('#demo-pages').on('change', function () {
-                    $.ajax({
-                        url: $('#demo-pages option:selected').val(),
-                        success: function (res) {
-                            location.href = $('#demo-pages option:selected').val();
-                        }
-                    });
-                });
-
-                $('#header-style').on('change', function () {
-                    $.ajax({
-                        url: $('#header-style option:selected').val(),
-                        success: function (res) {
-                            location.href = $('#header-style option:selected').val();
-                        }
-                    });
-                });
-
-                $('#shop-style').on('change', function () {
-                    $.ajax({
-                        url: $('#shop-style option:selected').val(),
-                        success: function (res) {
-                            location.href = $('#shop-style option:selected').val();
-                        }
-                    });
-                });
-
-                $('#product-category-col').on('change', function () {
-                    $.ajax({
-                        url: $('#product-category-col option:selected').val(),
-                        success: function (res) {
-                            location.href = $('#product-category-col option:selected').val();
-                        }
-                    });
-                });
-
-                $('#single-products').on('change', function () {
-                    $.ajax({
-                        url: $('#single-products option:selected').val(),
-                        success: function (res) {
-                            location.href = $('#single-products option:selected').val();
-                        }
-                    });
-                });
-
-                $('.style-toggle').on('click', function () {
-                    $(this).parent('.config').toggleClass('open');
-                });
-            });
-        })(jQuery);
-    </script>
-    <!-- For demo purposes – can be removed on production : End -->
-
 </body>
-
-<!-- Mirrored from transvelo.github.io/electro-html/my-account.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Jul 2023 17:20:38 GMT -->
 
 </html>
